@@ -1,11 +1,18 @@
 import { useState } from 'react'
 import './App.css'
+import FactList from './components/FactList'
 
 function App() {
-	const [count, setCount] = useState(0)
-
 	return (
-		<p> Välkommen till fullstack-appen! </p>
+		<>
+			<header>
+				<h1> Get your animal facts here! </h1>
+
+			</header>
+			<main>
+				<FactList />
+			</main>
+		</>
 	)
 }
 
