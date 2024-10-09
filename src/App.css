@@ -28,3 +28,11 @@ main {
 	flex-grow: 1;
 }
 
+.fact {
+	margin: 0.75em;
+
+	&:nth-child(even) {
+		background-color: #ba89ba;
+	}
+
+}

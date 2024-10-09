@@ -10,7 +10,9 @@ const FactList = () => {
 		// spara svaret i state-variabeln
 		const response: Response = await fetch('/api/animal-facts')
 		const data = await response.json()
-		console.log('Data från servern: ', data)
+		// console.log('Data från servern: ', data)
+		// TODO: om man bedömer att det behövs, kontrollera datan med Joi
+		setFacts(data as AnimalFact[])
 	}
 
 	return (
