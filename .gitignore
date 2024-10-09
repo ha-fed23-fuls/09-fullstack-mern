@@ -12,7 +12,7 @@ dist
 dist-ssr
 *.local
 
-
+backendDist
 
 
 # Editor directories and files
